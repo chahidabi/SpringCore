@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!-- registering the bean by giving id and class name -->
+<bean name ="emp" class="com.snycon.bean.Employee">
+<!-- doing the autowiring by giving properties name & value -->
+<property name ="emp_id" value ="101"/>
+<property name ="emp_name" value ="Chahida"/>
+<property name ="emp_sal" value ="111111.2"/>
+
+</bean>
+
+</beans>
